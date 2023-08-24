@@ -1,8 +1,6 @@
 # Li-ion Battery Prognosis Based on Hybrid Bayesian PINN
 Code for the paper:
-
-Nascimento, Viana, Corbetta, Kulkarni. A Framework for Li-ion Battery Prognosis Based on Hybrid Bayesian Physics-Informed Neural Networks
-Nature Scientific Reports, 2023.
+Nascimento, Viana, Corbetta, Kulkarni. A Framework for Li-ion Battery Prognosis Based on Hybrid Bayesian Physics-Informed Neural Networks. Nature Scientific Reports, 2023.
 
 ## Summary
 Li-ion batteries are the main power source used in electric propulsion applications (e.g., electric cars, unmanned aerial vehicles, and advanced air mobility aircraft).
@@ -12,6 +10,11 @@ We propose a hybrid physics-informed machine learning approach that simulates dy
 While reduced-order models describe part of the voltage discharge under constant or variable loading conditions, model-form uncertainty is captured through multi-layer perceptrons and battery-to-battery aleatory uncertainty is modeled through variational multi-layer perceptrons.
 In addition, we use a Bayesian approach to merge fleet-wide data in the form of priors with battery-specific discharge cycles, where the battery capacity is fully available or only partially available.
 We illustrate the effectiveness of our proposed framework using the NASA Prognostics Data Repository Battery dataset, which contains experimental discharge data on Li-ion batteries obtained in a controlled environment.
+
+## Details
+Script BatteryModels.py contains the engineering battery model (based on physics/empirical equations) that served as the base to build the hybrid RNN cell. 
+Script BatteryParameters.py contains the default values of the battery model parameters for the batteries we have tested.
+Folder TF contains the Tensorflow code to generate the models, train them on the Battery dataset from the NASA Prognostics Data Repository, and perform the predictions shown in the paper.  
 
 ## Credits
 This work is the result of Dr. Renato Nascimento's work, carried out as a collaboration between Prof. Felipe Viana's Probabilistic Mechanics Laboratory at the University of Central Florida (UCF), and KBR Inc., at NASA Ames Research Center, Calif., where Renato was an intern during 2020.
