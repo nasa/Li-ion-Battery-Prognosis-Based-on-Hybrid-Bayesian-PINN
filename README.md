@@ -17,7 +17,10 @@ Script BatteryParameters.py contains the default values of the battery model par
 Folder TF contains the Tensorflow code to generate the models, train them on the Battery dataset from the NASA Prognostics Data Repository, and perform the predictions shown in the paper.  
 
 ## Credits
-This work is the result of Dr. Renato Nascimento's work, carried out as a collaboration between Prof. Felipe Viana's Probabilistic Mechanics Laboratory at the University of Central Florida (UCF), and KBR Inc., at NASA Ames Research Center, Calif., where Renato was an intern during 2020.
+This work is the result of Dr. Renato Nascimento, carried out as a collaboration between Prof. Felipe Viana's Probabilistic Mechanics Laboratory at the University of Central Florida (UCF), and KBR Inc., at NASA Ames Research Center, Calif., where Renato was an intern during 2020.
+
+This work was supported by the System-Wide Safety (SWS) project under the Airspace Operations and Safety Program within the NASA Aeronautics Research Mission Directorate (ARMD). The contributions of Matteo Corbetta and Chetan Kulkarni were performed under NASA Ames Research Center, Contract No. 80ARC020D0010.
+
 
 [Probabilistic Mechanics Laboratory (PML)](https://github.com/PML-UCF)
 
