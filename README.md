@@ -1,6 +1,7 @@
 # Li-ion Battery Prognosis Based on Hybrid Bayesian PINN
 Code for the paper:
-Nascimento, Viana, Corbetta, Kulkarni. A Framework for Li-ion Battery Prognosis Based on Hybrid Bayesian Physics-Informed Neural Networks. Nature Scientific Reports, 2023.
+Nascimento, Viana, Corbetta, Kulkarni.
+[A Framework for Li-ion Battery Prognosis Based on Hybrid Bayesian Physics-Informed Neural Networks](https://www.nature.com/articles/s41598-023-33018-0). Nature Scientific Reports, 2023.
 
 ## Summary
 Li-ion batteries are the main power source used in electric propulsion applications (e.g., electric cars, unmanned aerial vehicles, and advanced air mobility aircraft).
